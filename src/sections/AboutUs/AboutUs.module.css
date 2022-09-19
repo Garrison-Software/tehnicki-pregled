@@ -1,0 +1,9 @@
+.aboutUsContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutTitles{
+    padding-left: 20px;
+    border-left: #009ee0 solid 6px;
+}
