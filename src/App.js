@@ -3,14 +3,16 @@ import Header from "./sections/Header/Header";
 import NavMenu from "./sections/NavigationMenu/NavMenu";
 import Hero from "./sections/HeroBanner/Hero";
 import AboutUs from "./sections/AboutUs/AboutUs";
+import Footer from "./sections/Footer/Footer";
 
 function App() {
   return (
     <div className="App">
       <Header />
       <NavMenu />
-      <Hero/>
-      <AboutUs/>
+      <Hero />
+      <AboutUs />
+      <Footer />
     </div>
   );
 }
