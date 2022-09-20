@@ -9,12 +9,6 @@
   color: white;
 }
 
-/* .auto-container {
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 1fr;
-  line-height: 2em;
-} */
 .auto-container {
   display: flex;
   flex-direction: row;
@@ -39,20 +33,6 @@
   display: block;
 }
 
-/* .footer-services {
-  text-align: center;
-} */
-
-/* .services-widget {
-  text-align: start;
-  padding-left: 100px;
-} */
-
-/* .contact-widget {
-  display: flex;
-  text-align: start;
-} */
-
 .main-footer li {
   list-style: none;
   line-height: 1.8;
@@ -75,4 +55,11 @@ ul.contact-us-info {
 
 .auto-container ul li a:hover {
   color: red;
+}
+
+@media (max-width: 768px) {
+  .auto-container {
+    flex-direction: column;
+    align-items: center;
+  }
 }

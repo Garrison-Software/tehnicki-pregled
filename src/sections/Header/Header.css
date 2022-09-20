@@ -27,14 +27,14 @@
 .call-us-hours ul {
   display: flex;
 }
-
-.time-li {
+/* tu je greska */
+/* .time-li {
   padding-left: 20px;
-}
-
-.phone-li {
+} */
+/* tu je greska */
+/* .phone-li {
   padding-right: 140px;
-}
+} */
 
 .logo-div img {
   height: 100px;
