@@ -77,7 +77,7 @@
 
 @media(max-width:1250px){
   .aboutPromotions{
-    
+    margin: 20px 0;
   }
   .aboutPromotions > *{
     align-items: stretch;
