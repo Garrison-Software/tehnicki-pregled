@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+.main-footer .footer-upper {
+  position: relative;
+  padding: 40px 0 10px;
+  background-color: #292929;
+  color: white;
+}
+
+.auto-container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  line-height: 2em;
+}
+
+.contact-info {
+  padding-left: 30px;
+}
+
+.footer-services {
+  text-align: center;
+}
+
+.services-widget {
+  text-align: start;
+  padding-left: 100px;
+}
+
+.contact-widget {
+  text-align: start;
+}
+
+li {
+  list-style: none;
+}
+
+ul.links,
+ul.contact-us-info {
+  padding: 0;
+}
+
+.contact-widget a:link {
+  text-decoration: none;
+}
+
+.contact-widget a:visited {
+  text-decoration: none;
+}
+
+.contact-widget a:hover {
+  color: rgb(255, 130, 130);
+}
+.contact-widget a:active {
+  text-decoration: none;
+}
+
+.services-widget a:link {
+  text-decoration: none;
+  color: blue;
+}
+
+.services-widget a:visited {
+  text-decoration: none;
+}
+
+.services-widget a:hover {
+  color: rgb(255, 130, 130);
+}
+.services-widget a:active {
+  text-decoration: none;
+}
