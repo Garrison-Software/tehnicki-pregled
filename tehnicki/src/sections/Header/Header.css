@@ -49,5 +49,6 @@
 @media(max-width:600px){
   .hd-top-container{
     display: block;
+    margin-bottom: 80px;
   }
 }
