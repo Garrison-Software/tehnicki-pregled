@@ -13,12 +13,9 @@ function App() {
     <div className="App">
       <Header />
       <NavMenu />
-      {/* <<<<<<< HEAD */}
       <Hero />
       <AboutUs />
       <Footer />
-      {/* ======= */}
-      {/* >>>>>>> 38c53711da83021b823f9be92580100a47818cb8 */}
     </div>
   );
 }

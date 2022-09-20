@@ -4,14 +4,11 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer className="main-footer">
-      <div className="footer-upper">
+
         <div className="auto-container">
           <div className="contact-info">
-            <div className="contact-widget">
               <h3>Contact Us</h3>
-              <div className="contact-us-text">
-                <p>Text</p>
-              </div>
+              <p className="contact-us-text">Text</p>
               <ul className="contact-us-info">
                 <li>
                   <strong>Email </strong>
@@ -30,11 +27,9 @@ const Footer = () => {
                   <a href="http://www.carshire.com">www.carshire.com</a>
                 </li>
               </ul>
-            </div>
           </div>
 
           <div className="footer-services">
-            <div className="services-widget">
               <h3>Our Services</h3>
               <ul className="links">
                 <li>
@@ -53,11 +48,10 @@ const Footer = () => {
                   <a href="">Car liquids replacement</a>
                 </li>
               </ul>
-            </div>
+           
           </div>
 
           <div className="footer-support">
-            <div className="services-widget">
               <h3>Our Support</h3>
               <ul class="links">
                 <li>
@@ -76,11 +70,11 @@ const Footer = () => {
                   <a href="#">Help &amp; Support Center</a>
                 </li>
               </ul>
-            </div>
           </div>
         </div>
-      </div>
-      <div className="footer-bottom"></div>
+    
+        <hr style={{width:"80%"}} />
+        <p>@Welt automotive ALL RIGHTS RESERVED </p>
     </footer>
   );
 };
