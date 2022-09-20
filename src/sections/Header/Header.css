@@ -37,7 +37,7 @@
 } */
 
 .logo-div img {
-  height: 100px;
+  height: 90px;
 }
 
 .header-bottom {
@@ -46,8 +46,8 @@
   background: #36404b;
 }
 
-@media(max-width:600px){
-  .hd-top-container{
+@media (max-width: 600px) {
+  .hd-top-container {
     display: block;
     margin-bottom: 80px;
   }
