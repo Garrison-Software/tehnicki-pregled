@@ -1,8 +1,10 @@
 .aboutUsContainer {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   flex: 1;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
 }
 
 .aboutTitles {
@@ -16,9 +18,9 @@
   align-items: center;
 }
 
-/* .aboutTitles > *{
-   
-} */
+.aboutTitles h3{
+   color: #009ee0;
+}
 
 .aboutPresentation {
   display: flex;
@@ -39,22 +41,61 @@
 .aboutPromotions {
   width: 50%;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   row-gap: 20px;
 }
 
 .aboutPromotions > * {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   column-gap: 20px;
 }
 
 .promoBlock {
-  height: 100px;
-  width: 300px;
+  height: 75px;
+  min-width: 300px;
   /* background: #000; */
   border: red 2px solid;
+}
+
+
+/*  TABLET */
+
+@media(max-width:1250px){
+  .aboutPromotions{
+    
+  }
+  .aboutPromotions > *{
+    align-items: stretch;
+    row-gap: 20px;
+  }
+
+ /* .promoBlock{
+  width: 25%;
+ } */
+}
+
+/* MOBILE */
+
+@media(max-width:600px)
+{
+
+  .aboutPresentation p{
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  .aboutPromotions{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .aboutPromotions > *{
+    row-gap: 20px;
+  }
 }

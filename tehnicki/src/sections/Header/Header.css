@@ -45,3 +45,9 @@
   padding: 0px 0px;
   background: #36404b;
 }
+
+@media(max-width:600px){
+  .hd-top-container{
+    display: block;
+  }
+}
