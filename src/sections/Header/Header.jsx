@@ -1,28 +1,28 @@
 import React from "react";
-import "./Header.css";
+import header from "./header.module.css";
 
 const Header = () => {
   return (
-    <div className="main-container">
-      <header className="main-header">
-        <div className="header-top">
-          <div className="hd-top-container">
-            <div className="logo-div">
+    <div className={header.mainContainer}>
+      <header className={header.mainHeader}>
+        <div className={header.headerTop}>
+          <div className={header.hdTopContainer}>
+            <div className={header.logoDiv}>
               <img
                 src={require("../../assets/icons/header/logoWeltAuto1.png")}
                 alt=""
               />
             </div>
-            <div className="call-us-hours">
+            <div className={header.callUsHours}>
               <ul>
-                <li className="phone-li">
+                <li className={header.phoneLi}>
                   <p>
                     <b>Call us now!</b>
                     <br />
                     "(123) 456 7890"
                   </p>
                 </li>
-                <li className="time-li">
+                <li className={header.timeLi}>
                   <p>
                     <b>Opening hours:</b>
                     <br />
@@ -33,10 +33,10 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className="header-bottom">
-          <div className="hd-bottom-container">
-            <nav className="bt-container-nav">
-              <div className="navbar-header"></div>
+        <div className={header.headerBottom}>
+          <div className={header.hdBottomContainer}>
+            <nav className={header.btContainerNav}>
+              <div className={header.navbarHeader}></div>
               <div></div>
             </nav>
           </div>

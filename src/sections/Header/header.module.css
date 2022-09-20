@@ -1,11 +1,11 @@
-.phone-li::before {
+.phoneLi::before {
   content: url("../../assets/icons/header/header-phone.webp");
   filter: invert(62%) sepia(88%) saturate(4409%) hue-rotate(167deg)
     brightness(94%) contrast(102%);
   padding-top: 25px;
   padding-right: 10px;
 }
-.time-li::before {
+.timeLi::before {
   content: url("../../assets/icons/header/header-timer.webp");
   filter: invert(62%) sepia(88%) saturate(4409%) hue-rotate(167deg)
     brightness(94%) contrast(102%);
@@ -13,34 +13,34 @@
   padding-right: 10px;
 }
 
-.call-us-hours li {
+.callUsHours li {
   display: flex;
   list-style: none;
   height: 50px;
 }
 
-.hd-top-container {
+.hdTopContainer {
   display: flex;
   justify-content: space-around;
 }
 
-.call-us-hours ul {
+.callUsHours ul {
   display: flex;
 }
 
 
-.logo-div img {
-  height: 90px;
+.logoDiv img {
+  height: 100px;
 }
 
-.header-bottom {
+.headerBottom {
   position: relative;
   padding: 0px 0px;
   background: #36404b;
 }
 
 @media (max-width: 600px) {
-  .hd-top-container {
+  .hdTopContainer {
     display: block;
     margin-bottom: 80px;
   }
