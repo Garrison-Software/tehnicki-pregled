@@ -10,18 +10,15 @@
   border-left: #009ee0 solid 4px;
   align-self: center;
 
-  
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-
 }
 
-.aboutTitles > *{
+/* .aboutTitles > *{
    
-}
+} */
 
 .aboutPresentation {
   display: flex;
@@ -30,37 +27,34 @@
   flex: 1;
 }
 
-
-
-.aboutPresentation p{
-    width: 50%;
-    align-self: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
+.aboutPresentation p {
+  width: 50%;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .aboutPromotions {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    row-gap: 20px;
-  }
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
 
-  .aboutPromotions > *{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 20px;
-  }
+.aboutPromotions > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
 
 .promoBlock {
   height: 100px;
   width: 300px;
   /* background: #000; */
-  border: red  2px solid;
+  border: red 2px solid;
 }
