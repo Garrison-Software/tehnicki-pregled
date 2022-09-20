@@ -57,10 +57,19 @@
 }
 
 .promoBlock {
-  height: 75px;
+  height: 110px;
   min-width: 300px;
-  /* background: #000; */
   border: red 2px solid;
+  display: flex;
+  justify-content: space-around;
+  /* justify-content: flex-start; */
+  /* column-gap: 40px; */
+}
+
+.iconDiv img{
+  height: 50px;
+  filter: invert(28%) sepia(86%) saturate(7485%) hue-rotate(356deg) brightness(95%) contrast(119%);
+  border-image-width: 10px;
 }
 
 

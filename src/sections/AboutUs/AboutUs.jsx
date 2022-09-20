@@ -21,13 +21,47 @@ const AboutUs = () => {
       </div>
       <div className={styles.aboutPromotions}>
         <div className={styles.blockSet1}>
-            <div className={styles.promoBlock}></div>
-            <div className={styles.promoBlock}></div>
+            <div className={styles.promoBlock}>
+              <div className={styles.iconDiv}>
+                <img src={require('../../assets/icons/repair/automotive.png')} alt="" />
+              </div>
+              <div className={styles.serviceDiv}>
+                <h3>Testiranje kvaliteta vozila</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+            <div className={styles.promoBlock}>
+            <div className={styles.iconDiv}>
+                <img src={require('../../assets/icons/repair/speedometer.png')} alt="" />
+              </div>
+              <div className={styles.serviceDiv}>
+                <h3>Testiranje sigurnosti vozila</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
         </div>
 
         <div className={styles.blockSet2}>
-            <div className={styles.promoBlock}></div>
-            <div className={styles.promoBlock}></div>
+            <div className={styles.promoBlock}>
+            <div className={styles.iconDiv}>
+                <img src={require('../../assets/icons/repair/bill.png')} alt="" />
+              </div>
+              <div className={styles.serviceDiv}>
+                <h3>Plaćanje na čekove</h3>
+                <p>6 meseic sa 0% kamate! <br/>
+                  Kompletna registracija na čekove
+                </p>
+              </div>
+            </div>
+            <div className={styles.promoBlock}>
+            <div className={styles.iconDiv}>
+                <img src={require('../../assets/icons/repair/credit-card.png')} alt="" />
+              </div>
+              <div className={styles.serviceDiv}>
+                <h3>Karticom Banca Intesa</h3>
+                <p>Plaćanje registracija na 6 rata</p>
+              </div>
+            </div>
         </div>
 
       </div>
