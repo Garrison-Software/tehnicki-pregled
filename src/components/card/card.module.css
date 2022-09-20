@@ -1,0 +1,126 @@
+.cardWraper {
+    position: relative;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.cardImgWraper {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.cardImgWraper img {
+    width: 400px;
+    height: 250px;
+    position: relative;
+    display: inline-block;
+
+}
+
+.cardPrice {
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 4px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: larger;
+
+}
+
+.cardTitle,
+.cardSubtitle {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin: 5px 0;
+
+}
+
+.cardTitle {
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.cardTitleLogo {
+    display: inline-block;
+    margin: 0 5px;
+
+}
+
+.cardTitleLogo::before {
+    background-image: url('../../assets/icons/header/logoWeltAuto1.png');
+    background-size: 50px 40px;
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+    content: "";
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+
+.cardTitleText {
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.cardSubtitle {
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.cardSubtitle a,
+.overlayWraper a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    width: 35%;
+    margin: 0 1%;
+    padding: 5px 0;
+
+}
+
+.cardReadMore {
+    background-color: black;
+    color: white !important;
+}
+
+.cardQuote::before {
+    content: ">";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.overlayWraper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(209, 59, 59, 0.8);
+    display: none;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    align-items: flex-start;
+    animation: rotate 0.3s linear;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateX(90deg)
+    }
+
+    to {
+        transform: rotateX(0deg)
+    }
+}
