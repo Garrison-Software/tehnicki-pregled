@@ -86,6 +86,7 @@
     width: 35%;
     margin: 0 1%;
     padding: 5px 0;
+    text-transform: uppercase;
 
 }
 
@@ -100,27 +101,63 @@
     margin-right: 10px;
 }
 
+.cardQuote:hover {
+    background-color: black;
+    color: white;
+}
+
+.cardReadMore:hover,
+.overlayLink:hover {
+    background-color: white;
+    color: black !important;
+}
+
 .overlayWraper {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(209, 59, 59, 0.8);
+    background-color: rgba(209, 59, 59, 1);
     display: none;
     flex-direction: column;
     flex: 1;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
-    animation: rotate 0.3s linear;
+    padding: 30px;
+    text-align: left;
+    animation: rotate 0.5s linear;
+    transition: ease;
+    color: white;
+}
+
+.overlayLink {
+    text-align: center;
+    text-transform: uppercase;
+    color: white !important;
+    border: 1px solid white !important;
 }
 
 @keyframes rotate {
-    from {
+
+    0% {
         transform: rotateX(90deg)
     }
 
-    to {
+    25% {
+        transform: rotateX(20deg)
+    }
+
+    50% {
+        transform: rotateY(-20deg);
+
+    }
+
+    75% {
+        transform: rotateX(-20deg)
+    }
+
+    100% {
         transform: rotateX(0deg)
     }
 }

@@ -17,7 +17,6 @@ function App() {
       <NavMenu />
       <Hero/>
       <AboutUs/>
-      <Footer />
       <div>
     
       <Card
@@ -28,13 +27,14 @@ function App() {
       href1="#"
       href2="#"
       Link1Text="Get a Quote"
-      Link2Text="reaad more"
+      Link2Text="read more"
       overlayTitle="Tehnicki pregled"
       overlaySubtitle=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat blanditiis ut in quasi nesciunt deleniti amet, libero repellat, eius facilis quas reprehenderit eveniet ipsum enim? Rerum quam consequatur qui perferendis."
       overlayHref="#"
       overlayLinkText="read More"
       />
       </div>
+      <Footer />
     </div>
   );
 }
