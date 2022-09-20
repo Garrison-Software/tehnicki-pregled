@@ -4,8 +4,10 @@ import Header from "./sections/Header/Header";
 import NavMenu from "./sections/NavigationMenu/NavMenu";
 import Hero from "./sections/HeroBanner/Hero";
 import AboutUs from "./sections/AboutUs/AboutUs";
+import Footer from "./sections/Footer/Footer";
 import Card from "./components/card/Card";
 import img1 from "./assets/icons/repair/pexels-cottonbro-4489765.jpg"
+
 
 
 function App() {
@@ -15,6 +17,7 @@ function App() {
       <NavMenu />
       <Hero/>
       <AboutUs/>
+      <Footer />
       <div>
     
       <Card

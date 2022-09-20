@@ -3,12 +3,14 @@
   color: white;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   position: relative;
   column-gap: 20%;
 }
 
 .navList {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
   column-gap: 20px;
