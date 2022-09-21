@@ -1,0 +1,7 @@
+.wraper {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-around;
+    margin: 50px 0;
+}
