@@ -15,11 +15,11 @@ const Footer = () => {
             </li>
             <li>
               <strong>Phone </strong>
-              <a href="#">+49 123 456 789</a>
+              <a href="/">+49 123 456 789</a>
             </li>
             <li>
               <strong>Fax </strong>
-              <a href="#">+49 123 456 789</a>
+              <a href="/">+49 123 456 789</a>
             </li>
             <li>
               <strong>Website </strong>
