@@ -1,14 +1,19 @@
-import React from "react";
+import React,{useRef} from "react";
 import styles from "./NavMenu.module.css";
 
 const NavMenu = () => {
+
+const handleScrollNav = (e) =>
+{
+  console.log(e.getBoundingClientRect());
+}
   return (
-    <div className={styles.navMenu}>
+    <div onScroll={handleScrollNav} className={styles.navMenu}>
       <div className={styles.navList}>
         <a href="/home">Home</a>
         <a href="/about"> O nama</a>
         <a href="/cenovnik">Cenovnik</a>
-        <a href="/zakazivanje">Zakazivanje</a>
+        <a href="/promocije">Promocije</a>
         <a href="/kontakt">Kontakt</a>
       </div>
 
