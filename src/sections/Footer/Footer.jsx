@@ -51,7 +51,7 @@ const Footer = () => {
 
         <div className={footer.footerSupport}>
           <h3>Our Support</h3>
-          <ul class={footer.links}>
+          <ul className={footer.links}>
             <li>
               <a href="#">How to get started?</a>
             </li>
