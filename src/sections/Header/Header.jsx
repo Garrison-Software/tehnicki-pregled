@@ -3,7 +3,7 @@ import header from "./header.module.css";
 
 const Header = () => {
   return (
-    <div className={header.mainContainer}>
+    <div id="home" className={header.mainContainer}>
       <header className={header.mainHeader}>
         <div className={header.headerTop}>
           <div className={header.hdTopContainer}>
