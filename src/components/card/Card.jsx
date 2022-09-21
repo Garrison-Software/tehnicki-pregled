@@ -6,7 +6,7 @@ const Card = (props) => {
     const innerCard = document.querySelector(".card_overlayWraper__XVNwS")
     const handleMouseEnter = (e)=>{
         setIsFlipped(true)
-        innerCard.setAttribute("style", "display:flex;")
+        innerCard.setAttribute("style", "display:flex")
         
     }
     const handleMouseLeave = (e) => {
