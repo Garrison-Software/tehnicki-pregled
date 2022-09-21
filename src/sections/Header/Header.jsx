@@ -3,6 +3,7 @@ import header from "./header.module.css";
 
 const Header = () => {
   return (
+
     <div className={header.mainContainer}>
       <div className={header.logo}>
         <img
@@ -21,6 +22,7 @@ const Header = () => {
               <br />
               <span>(123) 456 7890</span>
             </p>
+
         </div>
         <div className={header.timeWraper}>
         <span className={header.timeIcon}>

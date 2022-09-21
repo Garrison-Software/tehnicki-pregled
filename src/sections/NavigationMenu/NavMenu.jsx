@@ -21,7 +21,7 @@ useEffect(()=>
   return (
     <div ref={navRef} className={styles.navMenu}>
       <div className={styles.navList}>
-        <Link to="/" spy={true} smooth={true} offset={-150} duration={500}>Home</Link>
+        <Link to="home" spy={true} smooth={true} offset={-150} duration={500}>Home</Link>
         <Link to="about" spy={true} smooth={true} offset={-150} duration={500}> O nama</Link>
         <Link to="cenovnik" spy={true} smooth={true} offset={-150} duration={500}>Cenovnik</Link>
         <Link to="promocije" spy={true} smooth={true} offset={50} duration={500}>Promocije</Link>
