@@ -1,14 +1,24 @@
-import React,{useRef} from "react";
+import React,{useRef,useEffect} from "react";
 import styles from "./NavMenu.module.css";
 
 const NavMenu = () => {
+const navRef = useRef()
 
-const handleScrollNav = (e) =>
+const handleScrollEvent = () =>
 {
-  console.log(e.getBoundingClientRect());
+  window.scrollY > 70 && navRef.current.setAttribute("style","opacity:0.8") ;
 }
+
+useEffect(()=>
+{
+  window.addEventListener("scroll", handleScrollEvent)
+
+},[])
+
+
+
   return (
-    <div onScroll={handleScrollNav} className={styles.navMenu}>
+    <div ref={navRef} className={styles.navMenu}>
       <div className={styles.navList}>
         <a href="/home">Home</a>
         <a href="/about"> O nama</a>
