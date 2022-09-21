@@ -4,44 +4,35 @@ import header from "./header.module.css";
 const Header = () => {
   return (
     <div className={header.mainContainer}>
-      <header className={header.mainHeader}>
-        <div className={header.headerTop}>
-          <div className={header.hdTopContainer}>
-            <div className={header.logoDiv}>
-              <img
-                src={require("../../assets/icons/header/logoWeltAuto1.png")}
-                alt=""
-              />
-            </div>
-            <div className={header.callUsHours}>
-              <ul>
-                <li className={header.phoneLi}>
-                  <p>
-                    <b>Call us now!</b>
-                    <br />
-                    "(123) 456 7890"
-                  </p>
-                </li>
-                <li className={header.timeLi}>
-                  <p>
-                    <b>Opening hours:</b>
-                    <br />
-                    "Mon - Sat 9.00 - 19.00"
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </div>
+      <div className={header.logo}>
+        <img
+          src={require("../../assets/icons/header/logoWeltAuto1.png")}
+          alt="logo"
+        />
+      </div>
+      <div className={header.callUsHours}>
+        <div className={header.callWraper}>
+
+          <span className={header.phoneIcon}>
+            <img src={require("../../assets/icons/header/header-phone.webp")} alt="alt" />
+          </span>
+            <p className={header.phone}>
+              <span>Call us now!</span>
+              <br />
+              <span>(123) 456 7890</span>
+            </p>
         </div>
-        <div className={header.headerBottom}>
-          <div className={header.hdBottomContainer}>
-            <nav className={header.btContainerNav}>
-              <div className={header.navbarHeader}></div>
-              <div></div>
-            </nav>
-          </div>
+        <div className={header.timeWraper}>
+        <span className={header.timeIcon}>
+            <img src={require("../../assets/icons/header/header-timer.webp")} alt="time" />
+          </span>
+            <p className={header.time}>
+              <span>Call Us Now!</span>
+              <br />
+              <span>Mon - Sat 9:00 - 19:00</span>
+            </p>
         </div>
-      </header>
+      </div>  
     </div>
   );
 };
