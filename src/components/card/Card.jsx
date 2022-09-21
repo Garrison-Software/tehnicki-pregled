@@ -8,9 +8,9 @@ const Card = (props) => {
     e.preventDefault();
     if(!isFlipped){
         setIsFlipped(true)
+
         innerCard.current.setAttribute("style", "display: flex") 
     }
-   
         
     }
     const handleMouseLeave = (e) => {
@@ -21,8 +21,8 @@ const Card = (props) => {
     }
 
   return (
-    <div className={card.cardWraper}  >
-        <div className={card.cardImgWraper} onMouseEnter={handleMouseEnter} ><img src={props.src } alt={props.alt} name="img" /> <span className={card.cardPrice}>{props.price}din</span></div>
+    <div id="cenovnik" className={card.cardWraper}  >
+        <div className={card.cardImgWraper}onMouseEnter={handleMouseEnter}><img src={props.src} alt={props.alt} /> <span className={card.cardPrice}>{props.price}din</span></div>
         <div className={card.cardTitle}><span className={card.cardTitleLogo}></span><span className={card.cardTitleText}>{props.title}</span> </div>
         <div className={card.cardSubtitle}><a href={props.href1} className={card.cardQuote}>{props.Link1Text}</a> <a href={props.href2} className={card.cardReadMore}>{props.Link2Text}</a></div>
 

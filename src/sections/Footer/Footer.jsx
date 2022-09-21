@@ -3,7 +3,7 @@ import footer from "./footer.module.css";
 
 const Footer = () => {
   return (
-    <footer className={footer.mainFooter}>
+    <footer id="kontakt" className={footer.mainFooter}>
       <div className={footer.autoContainer}>
         <div className={footer.contactInfo}>
           <h3>Contact Us</h3>

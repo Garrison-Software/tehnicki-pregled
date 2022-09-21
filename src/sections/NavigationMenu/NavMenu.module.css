@@ -4,7 +4,11 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  position: relative;
+  /* position: relative; */
+  position: sticky;
+  top:20px;
+  /* opacity: 0.8; */
+  z-index: 2;
   column-gap: 20%;
 }
 
@@ -49,6 +53,13 @@
 }
 
 
+@media(max-width:1023px){
+  .navMenu{
+    position: relative;
+  }
+}
+
+/*phone*/
 @media(max-width:610px){
   .navList > *{
     width: 100%;
