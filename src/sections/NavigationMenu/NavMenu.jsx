@@ -1,5 +1,5 @@
 import React,{useRef,useEffect} from "react";
-import {Link} from "react-scroll"
+import {Link} from "react-scroll";
 import styles from "./NavMenu.module.css";
 
 const NavMenu = () => {

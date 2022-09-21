@@ -3,6 +3,7 @@
     display: inline-block;
     max-width: 400px;
     border: 1px solid black;
+    margin: 1% 0;
 }
 
 .cardImgWraper {
@@ -165,5 +166,11 @@
 
     100% {
         transform: rotateX(0deg)
+    }
+}
+
+@media (max-width: 768px) {
+    .cardWraper {
+        margin: 2% 0;
     }
 }

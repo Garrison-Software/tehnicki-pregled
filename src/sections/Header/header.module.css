@@ -1,47 +1,49 @@
-.phoneLi::before {
-  content: url("../../assets/icons/header/header-phone.webp");
-  filter: invert(62%) sepia(88%) saturate(4409%) hue-rotate(167deg)
-    brightness(94%) contrast(102%);
-  padding-top: 25px;
-  padding-right: 10px;
-}
-.timeLi::before {
-  content: url("../../assets/icons/header/header-timer.webp");
-  filter: invert(62%) sepia(88%) saturate(4409%) hue-rotate(167deg)
-    brightness(94%) contrast(102%);
-  padding-top: 25px;
-  padding-right: 10px;
-}
-
-.callUsHours li {
+.mainContainer {
   display: flex;
-  list-style: none;
-  height: 50px;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2%;
 }
 
-.hdTopContainer {
+.callUsHours {
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  flex: 1;
+  justify-content: flex-end;
 }
 
-.callUsHours ul {
+.callWraper,
+.timeWraper {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 1%;
+  min-width: 100px;
 }
 
-
-.logoDiv img {
-  height: 100px;
+.phone,
+.time {
+  display: inline-block;
+  text-align: left;
 }
 
-.headerBottom {
-  position: relative;
-  padding: 0px 0px;
-  background: #36404b;
+.phoneIcon img,
+.timeIcon img {
+  filter: invert(62%) sepia(88%) saturate(4409%) hue-rotate(167deg) brightness(94%) contrast(102%);
+  width: auto;
+  height: 30px;
+  padding: 0 10px;
 }
 
-@media (max-width: 600px) {
-  .hdTopContainer {
-    display: block;
-    margin-bottom: 80px;
+@media (max-width: 710px) {
+  .mainContainer {
+    flex-direction: column;
+  }
+
+  .callWraper,
+  .timeWraper {
+    flex: 1;
   }
 }
