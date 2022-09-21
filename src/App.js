@@ -7,6 +7,7 @@ import AboutUs from "./sections/AboutUs/AboutUs";
 import Footer from "./sections/Footer/Footer";
 import Card from "./components/card/Card";
 import img1 from "./assets/icons/repair/pexels-cottonbro-4489765.jpg"
+import Promo from "./sections/TheirPromotions/Promo";
 
 
 
@@ -34,6 +35,8 @@ function App() {
       overlayLinkText="read More"
       />
       </div>
+
+      <Promo/>
       <Footer />
     </div>
   );
