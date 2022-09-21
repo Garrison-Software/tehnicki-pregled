@@ -6,6 +6,7 @@ import Hero from "./sections/HeroBanner/Hero";
 import AboutUs from "./sections/AboutUs/AboutUs";
 import Footer from "./sections/Footer/Footer";
 import Card from "./components/card/Card";
+import Promo from "./sections/TheirPromotions/Promo";
 import img1 from "./assets/icons/repair/pexels-malte-luk-2244746.jpg"
 
 
@@ -33,6 +34,8 @@ function App() {
       overlayLinkText="read More"
       />
       </div>
+
+      <Promo/>
       <Footer />
     </div>
   );

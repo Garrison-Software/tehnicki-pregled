@@ -1,0 +1,49 @@
+.promoDiv{
+    background-image: url('../../assets/icons/repair/gray-bg.jpg');
+    background-size: contain;
+    /* background-position: center; */
+    /* width: 100%; */
+    /* height: 50vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 75px 0;
+    row-gap: 20px;
+
+}
+
+.promoDiv img{
+    display: block;
+    width: 50%;
+    height: 200px;
+}
+
+
+/*pc */
+@media (min-width: 1024px) {
+    .promoDiv img{
+        display: block;
+        width: 25%;
+        height: 200px;
+    }
+
+    .promoDiv{
+        background-image: url('../../assets/icons/repair/gray-bg.jpg');
+        background-size: contain;
+        flex-direction: row;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 75px 0;
+    }
+}
+
+
+@media(max-width:600px){
+    .promoDiv img{
+        display: block;
+        width: 75%;
+        height: 200px;
+    }
+}
