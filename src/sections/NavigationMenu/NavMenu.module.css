@@ -39,16 +39,10 @@
 }
 
 
-@media(max-width:1023px){
-  .navMenu{
-    position: relative;
-  }
-}
-
 /*phone*/
 @media(max-width:610px){
-  .navList > *{
-    width: 100%;
-    justify-content: center;
-  }
+.navMenu{
+  position: absolute;
+  top: 15%;
+}
 }
