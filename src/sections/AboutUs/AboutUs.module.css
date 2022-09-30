@@ -44,7 +44,6 @@
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
   row-gap: 20px;
 }
 
@@ -83,10 +82,6 @@
     align-items: stretch;
     row-gap: 20px;
   }
-
- /* .promoBlock{
-  width: 25%;
- } */
 }
 
 /* MOBILE */
