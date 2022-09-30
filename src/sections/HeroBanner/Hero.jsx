@@ -1,6 +1,7 @@
 import React from 'react'
 import {motion} from 'framer-motion'
 import styles from './Hero.module.css'
+// import NavMenu from '../NavigationMenu/NavMenu'
 
 const Hero = () => {
   return (
@@ -10,6 +11,8 @@ const Hero = () => {
     transition={{ duration: 1 }} 
     className={styles.heroContainer}
     >
+      
+      {/* <NavMenu/> */}
         <motion.h1 
         initial={{x:"-150px",opacity:0}} 
         animate={{translateX:"75px",opacity:1}}
