@@ -7,7 +7,7 @@ const Footer = () => {
       <div className={footer.autoContainer}>
         <div className={footer.contactInfo}>
           <h3>Contact Us</h3>
-          <p className={footer.contactUsText}>Text</p>
+          {/* <p className={footer.contactUsText}>Text</p> */}
           <ul className={footer.contactUsInfo}>
           <li>
               <strong>Adresa:</strong>
@@ -18,12 +18,12 @@ const Footer = () => {
               <a href="mailto:someone@example.com">someone@example.com</a>
             </li>
             <li>
-              <strong>Phone: </strong>
-              <a href="/">+49 123 456 789</a>
+              <strong>Mobile phone: </strong>
+              <a href="/">+381 62 472 000</a>
             </li>
             <li>
-              <strong>Fax: </strong>
-              <a href="/">+49 123 456 789</a>
+              <strong>Phone: </strong>
+              <a href="/">018 45 64 250</a>
             </li>
             <li>
               <strong>Website: </strong>
