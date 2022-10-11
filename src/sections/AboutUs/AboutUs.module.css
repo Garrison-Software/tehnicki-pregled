@@ -5,6 +5,7 @@
   flex: 1;
   justify-content: center;
   align-items: stretch;
+  margin: 100px 0;
 }
 
 .aboutTitles {
@@ -44,7 +45,6 @@
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
   row-gap: 20px;
 }
 
@@ -83,10 +83,6 @@
     align-items: stretch;
     row-gap: 20px;
   }
-
- /* .promoBlock{
-  width: 25%;
- } */
 }
 
 /* MOBILE */

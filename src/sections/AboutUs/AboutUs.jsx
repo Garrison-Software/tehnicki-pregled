@@ -6,17 +6,12 @@ const AboutUs = () => {
     <div id="about" className={styles.aboutUsContainer}>
       <div className={styles.aboutPresentation}>
         <div className={styles.aboutTitles}>
-          <h2>Zašto izabrati baš nas?</h2>
+          <h2>WELT automotive</h2>
           <h3>Pogledajte naše ponude i pogodnosti</h3>
         </div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-          repudiandae eligendi quaerat nihil possimus repellat nam dolorem, hic
-          voluptatum perspiciatis dignissimos tenetur beatae eius rerum ducimus.
-          A quidem vel culpa! Dolorem impedit corporis similique veritatis!
-          Officiis voluptas laborum magni deserunt dolores? Totam quaerat
-          corporis quidem consequuntur adipisci eius repudiandae aperiam,
-          veritatis eos harum nemo voluptates est atque dolorum, rem nobis.
+        Vršimo usluge tehničkog pregleda svih vrsta putničkih I teretnih vozila, tegljača, poluprikolica I prikolica.
+        Mi vam omogućavamo da ukoliko želite odloženo plaćanje, moguće je plaćanje čekovima do 6 rata bez kamate, kao I karticama banka Intese, takođe do 6 rata bez kamate.
         </p>
       </div>
       <div className={styles.aboutPromotions}>
@@ -27,7 +22,7 @@ const AboutUs = () => {
               </div>
               <div className={styles.serviceDiv}>
                 <h3>Testiranje kvaliteta vozila</h3>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Provera kvaliteta <br/> pre tehničkog pregleda</p>
               </div>
             </div>
             <div className={styles.promoBlock}>
@@ -36,7 +31,7 @@ const AboutUs = () => {
               </div>
               <div className={styles.serviceDiv}>
                 <h3>Testiranje sigurnosti vozila</h3>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Provera sigurnosti</p>
               </div>
             </div>
         </div>
