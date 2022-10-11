@@ -14,10 +14,12 @@
   line-height: 1.75rem;
   font-size: 18px;
   position: absolute;
-  bottom: 25%;
+  bottom: -100%;
   left: 50%;
+  transform: translateX(-50%);
   width: 50%;
 }
+
 
 .openModule {
   border-radius: 5px;
