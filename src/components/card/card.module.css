@@ -1,202 +1,200 @@
 .cardWraper {
-    position: relative;
-    display: inline-block;
-    max-width: 400px;
-    border: 1px solid black;
-    margin: 2% 0;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 500px;
+  position: relative;
+  display: inline-block;
+  max-width: 400px;
+  border: 1px solid black;
+  margin: 2% 0;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 500px;
 }
 
 .cardImgWraper {
-    position: relative;
-    margin: 0;
-    padding: 0;
+  position: relative;
+  margin: 0;
+  padding: 0;
 }
 
 .cardImgWraper img {
-    width: 100%;
-    height: auto;
-    position: relative;
-    display: inline-block;
-
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: inline-block;
+  border-radius: 8px 8px 0 0;
 }
 
 .cardPrice {
-    position: absolute;
-    display: inline-block;
-    bottom: 0;
-    right: 0;
-    margin-bottom: 4px;
-    padding: 10px 20px;
-    background-color: red;
-    color: white;
-    text-transform: uppercase;
-    font-weight: 900;
-    font-size: 1em;
-
+  position: absolute;
+  display: inline-block;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 4px;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1em;
 }
 
 .cardTitle,
 .cardSubtitle {
-    display: flex;
-    flex-direction: row;
-    flex: 1;
-    margin: 5px 0;
-    display: inline-block;
-
-    
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  margin: 5px 0;
+  display: inline-block;
 }
 
 .cardTitle {
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
 
-    display: block;
+  display: block;
 }
 
 .cardTitleLogo {
-    display: inline-block;
-    margin: 0 5px;
-
+  display: inline-block;
+  margin: 0 5px;
 }
 
 .cardTitleLogo::before {
-    background-image: url('../../assets/icons/header/logoWeltAuto1.png');
-    background-size: 50px 40px;
-    display: inline-block;
-    width: 50px;
-    height: 40px;
-    content: "";
-    border: 1px solid transparent;
-    border-radius: 50%;
+  background-image: url("../../assets/icons/header/logoWeltAuto1.png");
+  background-size: 50px 40px;
+  display: inline-block;
+  width: 50px;
+  height: 40px;
+  content: "";
+  border: 1px solid transparent;
+  border-radius: 50%;
 }
 
 .cardTitleText {
-    display: block;
-    font-size: 1.5em;
-    font-weight: 900;
-    text-transform: uppercase;
+  display: block;
+  font-size: 1.5em;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 .cardSubtitle {
-    justify-content: center;
-    margin-bottom: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
 
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    left: 25%;
-    transform: translateX(-25%);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 25%;
+  transform: translateX(-25%);
 }
 
 .cardSubtitle a,
 .overlayWraper a {
-    display: inline-block;
-    text-decoration: none;
-    color: black;
-    border: 1px solid black;
-    width: 40%;
-    margin: 0 1%;
-    padding: 5px 0;
-    text-transform: uppercase;
-    font-weight: 900;
-    font-size: 0.8em;
-
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  width: 40%;
+  margin: 0 1%;
+  padding: 5px 0;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 0.8em;
 }
 
-/* .cardReadMore {
-    background-color: black;
-    color: white !important;
-} */
+.cardReadMore,
+.overlayLink {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  color: black !important;
+  font-weight: 600 !important;
+  letter-spacing: 1.6px;
+  padding: 9px 14px !important;
+  margin: 15px 0;
+  cursor: pointer;
+  text-transform: uppercase;
+}
 
-.cardQuote{
-    border-radius: 5px;
-    background-color: black;
-    color: white !important;
-    font-weight: 600;
-    letter-spacing: 1.6px;
-    padding: 7px 14px;
-    margin: 15px 0;
-    cursor: pointer;
+.cardQuote {
+  border-radius: 5px;
+  background-color: black;
+  color: white !important;
+  font-weight: 600 !important;
+  letter-spacing: 1.6px;
+  padding: 9px 14px !important;
+  margin: 15px 0;
+  cursor: pointer;
 }
 
 .cardQuote::before {
-    content: ">";
-    font-weight: 900;
-    margin-right: 10px;
-    font-size: 1em;
+  content: ">";
+  font-weight: 900;
+  margin-right: 10px;
+  font-size: 1em;
 }
 
 .cardQuote:hover {
-    background-color: white;
-    color: black !important;
+  background-color: white;
+  color: black !important;
 }
 
 .cardReadMore:hover,
 .overlayLink:hover {
-    background-color: white;
-    color: black !important;
+  background-color: black !important;
+  color: white !important;
 }
 
 .overlayWraper {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(209, 59, 59, 1);
-    display: none;
-    flex-direction: column;
-    flex: 1;
-    justify-content: space-around;
-    align-items: flex-start;
-    padding: 30px;
-    text-align: left;
-    animation: rotate 0.5s linear;
-    transition: ease;
-    color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(51, 51, 51, 0.9);
+  display: none;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 30px;
+  text-align: left;
+  animation: rotate 0.5s linear;
+  transition: ease;
+  color: white;
+  border-radius: 8px;
 }
-
-.overlayLink {
-    text-align: center;
-    text-transform: uppercase;
-    color: white !important;
-    border: 1px solid white !important;
-    font-weight: 900;
-    font-size: 0.8em;
+.overlayWraper p {
+  font-size: 20px;
 }
 
 @keyframes rotate {
+  0% {
+    transform: rotateX(90deg);
+  }
 
-    0% {
-        transform: rotateX(90deg)
-    }
+  25% {
+    transform: rotateX(20deg);
+  }
 
-    25% {
-        transform: rotateX(20deg)
-    }
+  50% {
+    transform: rotateY(-20deg);
+  }
 
-    50% {
-        transform: rotateY(-20deg);
+  75% {
+    transform: rotateX(-20deg);
+  }
 
-    }
-
-    75% {
-        transform: rotateX(-20deg)
-    }
-
-    100% {
-        transform: rotateX(0deg)
-    }
+  100% {
+    transform: rotateX(0deg);
+  }
 }
 
 @media (max-width: 768px) {
-    .cardWraper {
-        margin: 2% 0;
-    }
+  .cardWraper {
+    margin: 2% 0;
+  }
 }
