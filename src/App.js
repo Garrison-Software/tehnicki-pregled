@@ -7,6 +7,7 @@ import AboutUs from "./sections/AboutUs/AboutUs";
 import Footer from "./sections/Footer/Footer";
 import Promo from "./sections/TheirPromotions/Promo";
 import CardSection from "./sections/CardSection/CardSection";
+import MapSection from "./sections/MapSection/MapSection";
 
 
 
@@ -20,6 +21,7 @@ function App() {
       <AboutUs/>
       <CardSection/>
       <Promo/>
+      <MapSection/>
       <Footer />
     </div>
   );

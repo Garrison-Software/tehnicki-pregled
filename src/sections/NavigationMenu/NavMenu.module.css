@@ -2,40 +2,26 @@
   background-color: #333;
   color: white;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   flex-wrap: wrap;
-  /* position: relative; */
-  position: sticky;
-  top:20px;
-  /* opacity: 0.8; */
+  flex-direction: column;
+  position: fixed;
+  top:155px;
   z-index: 2;
   column-gap: 20%;
+  opacity: 0.8;
+  width:50px;
 }
 
-.navList {
+.navMenu:hover{
+  width:80px;
+  align-items: flex-end;
+  transition: 0.2s ease-in;
+}
+
+.navSocial{
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-around;
-  column-gap: 20px;
-
-  /* display: grid; */
-
-  text-transform: uppercase;
-}
-
-.navList a:hover {
-  background-color: #009ee0;
-  cursor: pointer;
-}
-
-.navList a {
-  color: white;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  padding: 15px;
+  flex-direction: column;
 }
 
 .navSocial img {
@@ -45,6 +31,7 @@
   align-self: center;
   margin: 5px 8px;
   filter: brightness(0) invert(1);
+  cursor: pointer;
 }
 
 .navSocial img:hover {
@@ -53,16 +40,10 @@
 }
 
 
-@media(max-width:1023px){
-  .navMenu{
-    position: relative;
-  }
-}
-
 /*phone*/
 @media(max-width:610px){
-  .navList > *{
-    width: 100%;
-    justify-content: center;
-  }
+.navMenu{
+  position: absolute;
+  top: 15%;
+}
 }
