@@ -1,33 +1,34 @@
-import React, { useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import styles from './cardModal.module.css'
-import Modal from 'react-bootstrap/Modal';
+import React, { useState } from "react";
+import Button from "react-bootstrap/Button";
+import styles from "./cardModal.module.css";
+import Modal from "react-bootstrap/Modal";
 
-const CardModal =(props) => {
-  const [show, setShow] = useState(false);
-
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
-
+const CardModal = (props) => {
+  //
   return (
-    <>
-      <Button variant="primary" onClick={handleShow} className={styles.openBtn}>
-        {props.btnText}
-      </Button>
-
-      <Modal show={show} onHide={handleClose} className={styles.wrapper}>
-        <Modal.Header >
-          <Modal.Title className={styles.modalTitle}>{props.heading}</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>{props.bodyText}</Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose} className={styles.closeBtn}>
-            Zatvorite
-          </Button>
-        </Modal.Footer>
-      </Modal>
-    </>
+    <Modal
+      className={styles.wrapper}
+      {...props}
+      size='lg'
+      aria-labelledby='contained-modal-title-vcenter'
+      centered>
+      <Modal.Header>
+        <Modal.Title
+          id='contained-modal-title-vcenter'
+          className={styles.modalTitle}>
+          {props.heading}
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <p>{props.bodyText}</p>
+      </Modal.Body>
+      <Modal.Footer>
+        <Button className={styles.closeBtn} onClick={props.onHide}>
+          Zatvorite
+        </Button>
+      </Modal.Footer>
+    </Modal>
   );
-}
+};
 
-export default CardModal ;
+export default CardModal;
