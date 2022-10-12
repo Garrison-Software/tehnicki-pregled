@@ -6,7 +6,6 @@ import styles from './Hero.module.css'
 
 const Hero = () => {
   const res = window.matchMedia(`(max-width:726px)`)
-  console.log(res.matches);
   return (
     <motion.div 
     initial={{opacity:0}}  
