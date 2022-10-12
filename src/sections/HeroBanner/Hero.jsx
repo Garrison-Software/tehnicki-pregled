@@ -1,9 +1,11 @@
 import React from 'react'
 import {motion} from 'framer-motion'
 import styles from './Hero.module.css'
-// import NavMenu from '../NavigationMenu/NavMenu'
+
+
 
 const Hero = () => {
+  const res = window.matchMedia(`(max-width:726px)`)
   return (
     <motion.div 
     initial={{opacity:0}}  
@@ -14,8 +16,13 @@ const Hero = () => {
       
       {/* <NavMenu/> */}
         <motion.h1 
+       
         initial={{x:"-150px",opacity:0}} 
-        animate={{translateX:"75px",opacity:1}}
+        animate={!res.matches
+          ?
+          {translateX:"75px",opacity:1}
+          :
+          {x:"15px",opacity:1}}
         transition={{ duration: 1.5 }} 
         className={styles.heroTitle1}
         >
@@ -24,7 +31,10 @@ const Hero = () => {
 
         <motion.h1 
          initial={{x:"150px",opacity:0}} 
-         animate={{translateX:"-75px",opacity:1}}
+         animate={!res.matches?
+          {translateX:"-75px",opacity:1}
+          :
+          {x:"-15px",opacity:1}}
          transition={{ duration: 1.5 }} 
         className={styles.heroTitle2}
         >

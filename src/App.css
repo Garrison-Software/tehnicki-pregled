@@ -10,3 +10,49 @@ body {
 padding: 0;
 margin: 0;
 }
+
+
+
+@media(max-width:815px){
+
+  #gmap_canvas{
+    width: 600px;
+  }
+}
+
+@media(max-width:620px){
+
+  #gmap_canvas{
+    width: 500px;
+  }
+}
+
+
+@media(max-width:550px){
+
+  #gmap_canvas{
+    width: 400px;
+    height: 250px;
+    margin-bottom: 30px;
+  }
+}
+
+
+@media(max-width:385px){
+
+  #gmap_canvas{
+    width: 320px;
+    height: 200px;
+    margin-bottom: 30px;
+  }
+}
+
+
+@media(max-width:330px){
+
+  #gmap_canvas{
+    width: 280px;
+    height: 200px;
+    margin-bottom: 30px;
+  }
+}
