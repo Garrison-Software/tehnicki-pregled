@@ -17,15 +17,10 @@
   margin: 0 10%;
 }
 
-.contactInfo,
-.footerServices,
-.footerSupport {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  justify-content: space-around;
+.contactInfo {
   text-align: left;
   margin: 0 4%;
+  justify-self: center;
 }
 
 .contactInfo h3,
