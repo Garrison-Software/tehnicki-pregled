@@ -2,7 +2,6 @@ import React, { useState, useRef } from "react";
 import CardModal from "../modal/CardModal";
 import Button from "react-bootstrap/Button";
 import card from "./card.module.css";
-import { useEffect } from "react";
 
 const Card = (props) => {
   const [isFlipped, setIsFlipped] = useState(false);
@@ -22,7 +21,6 @@ const Card = (props) => {
     innerCard.current.setAttribute("style", "display: none");
     setIsFlipped(false);
   };
-
 
   return (
     <div id='cenovnik' className={card.cardWraper}>

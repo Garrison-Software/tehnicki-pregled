@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Button from "react-bootstrap/Button";
 import styles from "./cardModal.module.css";
 import Modal from "react-bootstrap/Modal";

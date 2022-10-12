@@ -58,7 +58,7 @@ const cards = [
     linkText1: "Pozovite",
     linkText2: "Pročitajte više",
     overlayTitle: "Otklanjanje vidljivih neispravnosti",
-    exampleText: `Signalizacija je bitan element u oceni ispravnosti vozila, pa je preporuka da vlasnik`,
+    exampleText: `Signalizacija je bitan element u oceni ispravnosti vozila, pa je preporuka da vlasnik...`,
     overlaySubtitle: `Signalizacija je bitan element u oceni ispravnosti vozila, pa je preporuka da vlasnik pregleda svoje vozilo
     kako bi još pre vršenja tehničkog pregleda lako otklonio eventualne neispravnosti. Sva signalizacija na
     vozilu mora biti ispravna – kratka I duga svetla, prednja svetla za maglu ukoliko postoje, svi pokazivači
@@ -81,7 +81,7 @@ const cards = [
     linkText1: "Pozovite",
     linkText2: "Pročitajte više",
     overlayTitle: "Registracija vozila I plaćanje",
-    exampleText: `Nakon izvršenog tehničkog pregleda može se izvršiti produženje registracije i`,
+    exampleText: `Nakon izvršenog tehničkog pregleda može se izvršiti produženje registracije i...`,
     overlaySubtitle: `Nakon izvršenog tehničkog pregleda može se izvršiti produženje registracije I štampanje nalepnice na
     licu mesta bez odlaska u Mup. Kompletnu regsitraciju možete platiti gotovinom ili bilo kojom platnom ili
     kreditnom karticom. Ukoliko želite odloženo plaćanje, moguće je plaćanje čekovima do 6 rata bez
