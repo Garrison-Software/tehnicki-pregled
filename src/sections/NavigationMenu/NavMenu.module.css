@@ -43,7 +43,6 @@
 /*phone*/
 @media(max-width:610px){
 .navMenu{
-  position: absolute;
   top: 15%;
 }
 }
