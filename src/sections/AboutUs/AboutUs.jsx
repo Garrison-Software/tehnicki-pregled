@@ -14,7 +14,13 @@ const AboutUs = () => {
         Mi vam omogućavamo da ukoliko želite odloženo plaćanje, moguće je plaćanje čekovima do 6 rata bez kamate, kao I karticama banka Intese, takođe do 6 rata bez kamate.
         </p>
       </div>
-      <div className={styles.aboutPromotions}>
+
+      <div className={styles.blinkAd}>
+        <img src={require('../../assets/icons/header/logoWeltAuto1.png')} alt="" />
+      </div>
+
+
+      {/* <div className={styles.aboutPromotions}>
         <div className={styles.blockSet1}>
             <div className={styles.promoBlock}>
               <div className={styles.iconDiv}>
@@ -59,7 +65,7 @@ const AboutUs = () => {
             </div>
         </div>
 
-      </div>
+      </div> */}
     </div>
   );
 };

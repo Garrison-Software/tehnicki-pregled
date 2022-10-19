@@ -11,7 +11,7 @@ const Footer = () => {
           <ul className={footer.contactUsInfo}>
             <li>
               <strong>Adresa:</strong>
-              <a href='/'> Dimitrija Tucovića 196</a>
+              <a href='/'> Dimitrija Tucovića 196a</a>
             </li>
             <li>
               <strong>Email: </strong>
