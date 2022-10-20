@@ -17,8 +17,8 @@ const Header = () => {
           <span className={header.phoneIcon}>
             <img src={require("../../assets/icons/header/header-phone.webp")} alt="alt" />
           </span>
-            <p className={header.phone}>
-              <span>Pozovite odmah!</span>
+            <p className={header.phone} style={{fontSize:"1.3rem", fontWeight:700}}>
+              <span>Info i zakazivanje:</span>
               <br />
               <span>+381 62 472 000</span> <br/>
               <span>& 018 45 64 250</span>
@@ -29,10 +29,10 @@ const Header = () => {
         <span className={header.timeIcon}>
             <img src={require("../../assets/icons/header/header-timer.webp")} alt="time" />
           </span>
-            <p className={header.time}>
-              <span>Radno vreme</span>
+            <p className={header.time} style={{fontSize:"1.3rem", fontWeight:700}}>
+              <span>Radno vreme:</span>
               <br />
-              <span>Pon - Sub <br/> 9:00 - 17:00</span>
+              <span >Pon - Sub <br/> 9:00 - 17:00</span>
             </p>
         </div>
       </div>  

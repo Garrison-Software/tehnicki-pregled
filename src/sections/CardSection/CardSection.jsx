@@ -94,7 +94,7 @@ const cards = [
 const CardSection = () => {
   return (
     <div className={card.sectionWrapper}>
-      <h1>NAŠE PONUDE</h1>
+      <h1>INFORMACIJE</h1>
       <div className={card.wraper}>
         {cards.map((card) => (
           <Card
