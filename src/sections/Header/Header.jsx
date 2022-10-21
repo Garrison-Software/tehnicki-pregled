@@ -20,8 +20,8 @@ const Header = () => {
             <p className={header.phone} style={{fontSize:"1.3rem", fontWeight:700}}>
               <span>Info i zakazivanje:</span>
               <br />
-              <span>+381 62 472 000</span> <br/>
-              <span>& 018 45 64 250</span>
+              <span>062 472 000</span> <br/>
+              <span>018 45 64 250</span>
             </p>
 
         </div>
@@ -32,7 +32,12 @@ const Header = () => {
             <p className={header.time} style={{fontSize:"1.3rem", fontWeight:700}}>
               <span>Radno vreme:</span>
               <br />
-              <span >Pon - Sub <br/> 9:00 - 17:00</span>
+             <span  style={{borderBottom:"1px solid black"}} >Pon - Pet:  8:00 - 17:00</span>
+              <br/>
+              <span style={{borderBottom:"1px solid black"}} >Sub: 8:00 - 14:00</span>
+              <br/>
+              <span >Nedelja: Neradna</span>
+
             </p>
         </div>
       </div>  

@@ -20,7 +20,6 @@
   flex-direction: row;
   align-items: center;
   margin: 0 1%;
-  min-width: 100px;
 }
 
 .phone,
@@ -45,5 +44,13 @@
   .callWraper,
   .timeWraper {
     flex: 1;
+  }
+
+  .callUsHours{
+    flex-wrap: wrap;
+  }
+
+  .phone,.time{
+    width: 100%;
   }
 }

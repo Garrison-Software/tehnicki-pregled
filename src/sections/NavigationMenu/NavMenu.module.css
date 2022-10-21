@@ -8,7 +8,7 @@
   position: fixed;
   top:155px;
   z-index: 2;
-  column-gap: 20%;
+  /* column-gap: 20%; */
   opacity: 0.8;
   width:50px;
 }
@@ -44,5 +44,27 @@
 @media(max-width:610px){
 .navMenu{
   top: 15%;
+  align-items: flex-start;
+  width: 40px;
+}
+
+.navMenu:hover{
+  width: 65px;
+}
+
+.navSocial:hover{
+  padding: 5px 0;
+}
+
+.navSocial img{
+  height: 35px;
+  align-self: flex-start;
+  margin: 3px ;
+}
+
+.navSocial img:hover {
+  position: static;
+  height: 40px;
+  transform: scale(1.5);
 }
 }

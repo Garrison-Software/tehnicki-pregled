@@ -7,11 +7,13 @@ const AboutUs = () => {
       <div className={styles.aboutPresentation}>
         <div className={styles.aboutTitles}>
           <h2>WELT automotive</h2>
-          <h3>Pogledajte naše ponude i pogodnosti</h3>
+          <h3>Naša ponuda:</h3>
         </div>
         <p>
-        Vršimo usluge tehničkog pregleda svih vrsta putničkih I teretnih vozila, tegljača, poluprikolica I prikolica.
-        Mi vam omogućavamo da ukoliko želite odloženo plaćanje, moguće je plaćanje čekovima do 6 rata bez kamate, kao I karticama banka Intese, takođe do 6 rata bez kamate.
+          Vršimo uslugu tehničkog pregleda svih vrsta 
+          putničkih i teretnih vozila, kipera, tegljača,
+           kao i teških prikolica i poluprikolica. 
+           Registracija vozila, izrada polise osiguranja i izdavanje registracione nalepnice na licu mesta. Plaćanje kompletnog iznosa registracije gotovinom ili bilo kojom karticom (uz Generali polisu kupljenu kod nas). Odloženo plaćanje do 6 rata bez kamate, čekovima ili karticama Banca Intesa.
         </p>
       </div>
 
